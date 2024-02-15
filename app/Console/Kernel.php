@@ -27,8 +27,8 @@ class Kernel extends ConsoleKernel
             }catch (\Exception $exception){
                 Log::info('Some issue with fetch url',[$exception]);
             }
-        })->everyTenSeconds();
-        //->hourly();
+        })->hourly();
+        //->everyTenSeconds();
     }
 
     /**
