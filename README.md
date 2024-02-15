@@ -13,3 +13,7 @@ This is a test project to display an unordered list in alphabetical order. It wi
 - Then updates the `.env` variables
 - Once `.env` file is ready we need to run the migrations by running `php artisan migrate`
 - To run the project `php artisan serve` and open the link in any browser `http://localhost:8000/`
+
+
+#### Scheduler
+- To run the scheduler we need to run the cmd `php artisan schedule:work`
